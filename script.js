@@ -107,7 +107,7 @@ function handleCardClick(event) {
     setTimeout(function(){
       if (matchedCards === COLORS.length) alert("Congrats! You won!");
       },1000);
-      exit();
+      return;
   }
 }
 

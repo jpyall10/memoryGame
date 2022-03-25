@@ -1,19 +1,39 @@
 #game div {
   border: 1px solid black;
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
   width: 15%;
   height: 200px;
   margin: 10px;
-  display: inline-block;
+  /* display: inline-block; */
+}
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 10vh;
+  text-align: center;
+  color: rgb(99, 13, 99);
+}
+
+
+#game{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+img{
+  align-items: center;
 }
 
 #game div:hover{
   border: 1px dashed red;
+  opacity: 75%
 }
 
 .faceDown{
   background-image: url("https://images.pexels.com/photos/2690766/pexels-photo-2690766.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-size: cover;
+  background-position: center;
 }
 
 .faceUp{
